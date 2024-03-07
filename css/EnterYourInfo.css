@@ -14,7 +14,7 @@ header {
     padding: 20px 0;
     text-align: center;
     align-items: center;
-    height: 20%;
+    height: 125px;
 }
 
 #logo-PTIT{
@@ -24,12 +24,13 @@ header {
 #header-title{
     text-align: center;
     margin-left: 33%;
+    font-size: 40px;
 }
 
 .form-container {
     max-width: 500px;
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: 6px;
     padding: 20px;
     background-color: #ffffff; /* Màu trắng */
     border: 1px solid #dddddd; /* Đường viền xám */
@@ -115,5 +116,5 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 3%;
+    height: 20px;
 }
