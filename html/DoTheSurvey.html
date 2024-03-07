@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do The Survey</title>
+    <link rel="stylesheet" href="../css/DoTheSurvey.css">
+</head>
+<body>
+    <header>
+        <img src="../static/image.png" alt="logoPTIT" id = "logo-PTIT">
+        <h1>PTIT SURVEY</h1>
+    </header>
+    <div id="survey-container">
+        <h2 id="survey-tile">Name of Survey</h2>
+        <div id="question-list">
+            <!-- Sinh danh sách cắc câu hỏi tại đây -->
+        </div>
+        <button id="submit" class="button">Gửi kết quả</button>
+    </div>
+
+    <div id="result-container">
+        <h2 id="result-heading">Kết quả khảo sát</h2>
+        <div id="result">
+            <!-- Hiển thị lại kết quả bài làm của user ở đây -->
+        </div>
+        <button id="retry" class="button-hide" onclick="retake()">Làm lại</button>
+    </div>
+    
+    <footer>
+        <p>© 2024 PTIT SURVEY. All rights reserved.</p>
+    </footer>
+
+    <script src="../javascripts/DoTheSurvey.js"></script>
+</body>
+</html> 
